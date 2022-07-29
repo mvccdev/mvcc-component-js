@@ -34,6 +34,26 @@ Use the following CL commands to test or compile this project:
 | ------------- | ---------------------------------------------------- |
 | npm run build | Build the project                                    |
 
+## Quick example
+
+**JS**
+
+	class Example extends MvccComponent {
+		render(state, props) {
+			return `
+				<div>
+					Hello ${props.name}
+				</div>
+			`;
+		}
+	}
+
+	Example.register("my-example", Example);
+
+**HTML**
+
+	<my-example name="World"> </my-example>
+
 ## Documentation
 
 All documentation can be found on our [Canvas course](https://canvas.morainevalley.edu/enroll/JE48AC).
