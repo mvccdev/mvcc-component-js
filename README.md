@@ -2,6 +2,13 @@
 
 "A class for building components and custom tags.
 
+It has many advantages over React.js
+
+* No build tools are needed
+* No JSX is needed
+* No root element or Fragment is needed
+* Lightweight and faster
+
 ## Skill Prerequisites
 
 A basic understanding of the following skills are necessary to use this project.
@@ -34,7 +41,7 @@ Use the following CL commands to test or compile this project:
 | ------------- | ---------------------------------------------------- |
 | npm run build | Build the project                                    |
 
-## Quick example
+## Quick Example
 
 **JS**
 
