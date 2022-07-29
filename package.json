@@ -1,0 +1,20 @@
+{
+  "name": "mvcc-component",
+  "version": "1.0.0",
+  "description": "A class for building components and custom tags.",
+  "main": "mvcc-component.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "minify ./src/mvcc-component.js > ./dist/mvcc-component.min.js"
+  },
+  "keywords": [
+    "mvcc",
+    "JavaScript"
+  ],
+  "author": "Eric Harms",
+  "license": "MIT",
+  "devDependencies": {
+    "minify": "^8.0.3"
+  },
+  "dependencies": {}
+}
